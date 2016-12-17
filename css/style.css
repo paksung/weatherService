@@ -1,0 +1,34 @@
+
+@charset "utf-8";
+.cityTips{
+    position: absolute;
+    z-index: 10000;
+    top: 43px;
+    left: 12px;
+    width: 80%;
+    height: 200px;
+    overflow-y: scroll;
+}
+.cityTips>li>i{
+    font-size: 18px!important;
+}
+.weatherCard{
+    margin-top: -20px;
+}
+.weatherCard>li{
+    padding: 0;
+}
+
+.text-right{
+    float: right;
+    font-size: 14px;
+}
+
+.list_inbox *{
+    border: none!important;
+}
+
+.text_indent{
+    text-indent: 1em;
+    font-size: 18px;
+}
